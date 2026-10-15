@@ -4,7 +4,7 @@ cask "bloc-de-notas" do
 
   url "https://github.com/hernycai/bloc-de-notas-macos/releases/download/v#{version}/Bloc.de.notas.dmg"
   name "Bloc de notas"
-  desc "Clon nativo del Bloc de notas de Windows para macOS"
+  desc "Clon nativo del clasico Bloc de notas de Windows"
   homepage "https://github.com/hernycai/bloc-de-notas-macos"
 
   livecheck do
