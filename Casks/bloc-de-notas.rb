@@ -1,6 +1,6 @@
 cask "bloc-de-notas" do
-  version "1.2.0"
-  sha256 "af3a70edd5310acfa332733c7daadfcca392854c0afc09c20c15974b46ea6ae6"
+  version "1.2.1"
+  sha256 "0362289657bad45d56b7bad1fee2aaf7253d21ac2697ac86c0fddc7c0b2dc9f0"
 
   url "https://github.com/hernycai/bloc-de-notas-macos/releases/download/v#{version}/Bloc.de.notas.dmg"
   name "Bloc de notas"
@@ -12,7 +12,7 @@ cask "bloc-de-notas" do
     strategy :github_latest
   end
 
-  depends_on macos: :sonoma
+  depends_on :macos
 
   app "Bloc de notas.app"
 
