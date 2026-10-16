@@ -1,6 +1,6 @@
 cask "bloc-de-notas" do
-  version "1.2.1"
-  sha256 "0362289657bad45d56b7bad1fee2aaf7253d21ac2697ac86c0fddc7c0b2dc9f0"
+  version "1.2.2"
+  sha256 "5821eed4b582b83b3c65478b92912e5886515c659b4ae131c5de5201934eee93"
 
   url "https://github.com/hernycai/bloc-de-notas-macos/releases/download/v#{version}/Bloc.de.notas.dmg"
   name "Bloc de notas"
